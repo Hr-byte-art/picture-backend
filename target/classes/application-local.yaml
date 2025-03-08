@@ -1,0 +1,21 @@
+cos:
+  client:
+    host: https://wjh-picture-1340059484.cos.ap-chengdu.myqcloud.com
+    secret-id: AKIDAKJILF4g3C7nFTTFn7D6qNhnfOyKWVF4
+    secret-key: lPyKTr1xoRpzusiRAi280egV5ZpshIfn
+    region: ap-chengdu
+    bucket: wjh-picture-1340059484
+aliYunAi:
+  apiKey: sk-e664530e56f749fea678f4f827a43a23
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/picture?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: zjrwjh999
+  redis:
+    host: localhost
+    port: 6379
+    password: zjrwjh999
+    database: 4
+    timeout: 5000
